@@ -11,15 +11,15 @@ import javafx.scene.layout.Pane;
 public class Block extends Pane {
     ImageView block;
     /**
-     * Перелік типів блоків
+     * пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
      */
     public enum BlockType {
         PLATFORM, BRICK, BONUS, PIPE_TOP, PIPE_BOTTOM, INVISIBLE_BLOCK, STONE
     }
     /**
-     * Створює блок відповідного типу
+     * пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
      * 
-     * @param ТипБлоку, координата х, координата у
+     * @param пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ
      */
     public Block(Image image, BlockType blockType, int x, int y) {
         block = new ImageView(image);
@@ -30,10 +30,10 @@ public class Block extends Pane {
 
         switch (blockType) {
             case PLATFORM:
-                block.setViewport(new Rectangle2D(0, 0, 16, 16));
+                block.setViewport(new Rectangle2D(0, 0, 20, 20));
                 break;
             case BRICK:
-                block.setViewport(new Rectangle2D(16, 0, 16, 16));
+                block.setViewport(new Rectangle2D(20, 0, 20, 20));
                 break;
             case BONUS:
                 block.setViewport(new Rectangle2D(384, 0, 16, 16));
@@ -47,7 +47,7 @@ public class Block extends Pane {
                 block.setFitWidth(Game.BLOCK_SIZE * 2);
                 break;
             case INVISIBLE_BLOCK:
-                block.setViewport(new Rectangle2D(0, 0, 16, 16));
+                block.setViewport(new Rectangle2D(0, 0, 8, 8));
                 block.setOpacity(0);
                 break;
             case STONE:
