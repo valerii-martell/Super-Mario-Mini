@@ -16,7 +16,7 @@ public class MenuBox extends Pane{
 
         setVisible(false);
         Rectangle bg = new Rectangle(1200,620,Color.LIGHTBLUE);
-        bg.setOpacity(0.4);
+        bg.setOpacity(0.6);
         getChildren().addAll(bg, VMenu);
     }
     public void setVMenu(VMenu VMenu){
