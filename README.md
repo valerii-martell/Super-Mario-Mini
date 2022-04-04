@@ -15,13 +15,15 @@ Implemented 3 levels, achievement system, settings (the skin of the character, v
 **Options submenu:**
 
 Here you can edit your character skin and change game volume
+
 ![image](https://user-images.githubusercontent.com/19497575/161529529-89da125d-26ab-4f57-9f77-f4836b781ff9.png)
 
 ![skin](https://user-images.githubusercontent.com/19497575/161534472-216dc310-e899-43d5-be14-c1a8e6045633.gif)
 
 **New game menu:**
 
-You can choose the level if you have already opened it.
+You can choose the level if you have already opened it
+
 ![image](https://user-images.githubusercontent.com/19497575/161530308-62b0bcda-3eb6-4fc2-bd21-2d24b5217434.png)
 
 ![image](https://user-images.githubusercontent.com/19497575/161532000-af00b243-7a63-4ea4-9d30-bfb8883c126a.png)
