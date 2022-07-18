@@ -1,4 +1,7 @@
 # Super-Mario-Mini
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/16e25ea82d974727be4d2a25b00f6585)](https://www.codacy.com/gh/valerii-martell/Super-Mario-Mini/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=valerii-martell/Super-Mario-Mini&amp;utm_campaign=Badge_Grade)
+
 Final work in university course "Software Engineering". 2D game "Super Mario Mini" in JavaFX platform. 
 Build automation tool - Maven. 
 Class diagrams constructed with using ArgoUML. 
